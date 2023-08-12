@@ -29,7 +29,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Preview(showBackground = true , showSystemUi = true)
@@ -48,7 +47,7 @@ fun BottomApp(modifier: Modifier = Modifier){
             ) {
                 items(50) {
                     ListItem(
-                        headlineText = { Text(text = "Item $it") },
+                        headlineContent = { Text(text = "Item $it") },
                         leadingContent = {
                             Icon(imageVector = Icons.Default.Face, contentDescription = null)
                         })

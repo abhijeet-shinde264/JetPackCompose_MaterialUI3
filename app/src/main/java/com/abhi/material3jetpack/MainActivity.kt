@@ -27,7 +27,15 @@ class MainActivity : ComponentActivity() {
                     //Slider()
                     //Radio()
                     //Check()
-                    AssistChips()
+                    //AssistChips()
+                    //Search()
+                    //DockedSearch()
+                    //BottomSheet()
+                    //ListM3()
+                    //FloatingButton()
+                    //TopBar()
+                    //SmallTop()
+                    MediumTopBar()
                         }
 
             }
@@ -61,6 +69,8 @@ fun GreetingPreview() {
         //Slider()
         //Radio()
         //Check()
-        AssistChips()
+        //AssistChips()
+        //Search()
+        DockedSearch()
     }
 }
